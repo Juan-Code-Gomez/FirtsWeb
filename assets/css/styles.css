@@ -154,6 +154,45 @@ section{
     padding-bottom: 15px;
 }
 
+.testimonios{
+    height: 97vh;
+    position: relative;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #F5F2F2;
+}
+
+.testimonios-content{
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+.testimonios-content h2{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.testimonios-content p{
+    padding: 10px 50px;
+}
+.testimonios-group{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 0 50px;
+}
+.testimonios-card{
+    width: 33%;
+    float: left;
+}
+
+.img-perfil{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
 @media(max-width:1024px){
     .logo{
         padding-left: 40px;
@@ -175,6 +214,13 @@ section{
     .img-job{
         width: 210px;
         height: 210px;
+    }
+    .testimonios-card{
+        font-size: 13px;
+    }
+    .img-perfil{
+        width: 150px;
+        height: 150px;
     }
 }
 
@@ -228,13 +274,17 @@ section{
         width: 60px;
     }
 
-    .about{
+    .about, .testimonios{
         height: 165vh;
     }
     .about-content{
         font-size: 35px;
     }
     .about-imgx{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .testimonios-card{
         width: 100%;
         margin-bottom: 20px;
     }
