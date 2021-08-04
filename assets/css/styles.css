@@ -193,6 +193,67 @@ section{
     border-radius: 50%;
     border: 3px solid white;
 }
+
+.contacto{
+    height: 97vh;
+    position: relative;
+}
+.contacto-content{
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+.contacto-content h2{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.contacto-content p, .contacto-content h2{
+    padding: 10px 50px;
+}
+.contacto-group{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 0 50px;
+}
+.form-contact{
+    width: 50%;
+}
+.form-control{
+    width: 85%;
+    padding: 0.8rem;
+    margin: 0.6rem 1rem;
+    display: block;
+    font-size: 1rem;
+    outline: 0;
+
+    border-radius: 5px;
+    border:1.5px solid #c7c7c7;
+}
+.send-btn{
+    display: block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: pink;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    margin: 0.6rem 1rem;
+    border-radius: 5px;
+
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.contacto-img{
+    width: 50%;
+    float: left;
+}
+.contacto-img img{
+    width: 85%;
+    display: block;
+    margin: auto;
+}
 @media(max-width:1024px){
     .logo{
         padding-left: 40px;
@@ -208,7 +269,7 @@ section{
         margin-top: 50px;
     }
 
-    .about{
+    .about, .testimonios, .contacto{
         height: 100vh;
     }
     .img-job{
@@ -221,6 +282,14 @@ section{
     .img-perfil{
         width: 150px;
         height: 150px;
+    }
+    .form-control{
+        width: 75%;
+        padding: 0.3rem;
+        margin: 0.6rem 1rem;
+    }   
+    .send-btn{
+        font-size: 0.8rem;
     }
 }
 
@@ -274,10 +343,10 @@ section{
         width: 60px;
     }
 
-    .about, .testimonios{
+    .about, .testimonios, .contacto{
         height: 165vh;
     }
-    .about-content{
+    .about-content h2 .testimonios-content h2, .contacto-content h2{
         font-size: 35px;
     }
     .about-imgx{
@@ -287,5 +356,16 @@ section{
     .testimonios-card{
         width: 100%;
         margin-bottom: 20px;
+    }
+    .form-contact, .contacto-img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .form-control, .send-btn{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .send-btn{
+        width: 77%;
     }
 }
