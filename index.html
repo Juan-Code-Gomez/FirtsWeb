@@ -19,15 +19,15 @@
             </label>
             <label class="logo">DesignTI</label>
             <ul class="nav-option">
-                <li><a href="">Home</a></li>
-                <li><a href="">Servicios</a></li>
-                <li><a href="">Clientes</a></li>
-                <li><a href="">Contacto</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#nosotros">Servicios</a></li>
+                <li><a href="#clientes">Clientes</a></li>
+                <li><a href="#contactos">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="banner">
+        <section class="banner" id="bann">
             <section class="banner-content">
                 <img src="./assets/img/p1.jpg" alt="imagen-banner">
                 <div class="banner-text">
@@ -37,7 +37,7 @@
                 </div>
             </section>
         </section>
-        <section class="about">
+        <section class="about" id="nosotros">
             <div class="about-content">
                 <h2>Nuestros Trabajos</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur earum harum ut cupiditate enim nesciunt quibusdam, expedita nisi architecto facere?</p>
@@ -57,7 +57,7 @@
                 </div>
             </div>
         </section>
-        <section class="testimonios">
+        <section class="testimonios" id="clientes">
             <div class="testimonios-content">
                 <h2>Clientes</h2>
                 <p>Nuestros clientes nos respaldan.</p>
@@ -80,7 +80,7 @@
                 </div>
             </div>
         </section>
-        <section class="contacto">
+        <section class="contacto" id="contactos">
             <div class="contacto-content">
                 <h2>Contactanos</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -95,15 +95,25 @@
                         <textarea rows="5"></textarea>
                         <input type="submit" class="send-btn">
                     </form>
-                </div>
-                <div class="contacto-img">
-                    <img src="./assets/img/contacto.jpg" alt="">
+                    <div class="contacto-img">
+                        <img src="./assets/img/contacto.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social">
+                <label><a href=""><i class="fab fa-facebook"></i></a></label>
+                <label><a href=""><i class="fab fa-instagram"></i></a></label>
+                <label><a href=""><i class="fab fa-twitter"></i></a></label>
+                <label><a href=""><i class="fab fa-google"></i></a></label>
+            </div>
+            <div class="copr">
+                <p>TutoCodev Plataforma Online &copy; 2021 Todos los derechos reservados</p>
+            </div>
+        </div>
     </footer>
     <script src="https://kit.fontawesome.com/0da19c2580.js" crossorigin="anonymous"></script>
 </body>

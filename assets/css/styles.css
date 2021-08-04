@@ -254,6 +254,39 @@ section{
     display: block;
     margin: auto;
 }
+footer{
+    position: relative;
+}
+
+.footer{
+    height: 10vh;
+    background-color: #000000;
+    color: white;
+}
+
+.social{
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+.social label a{
+    color: white;
+}
+.social label i{
+    font-size: 25px;
+    padding: 0 10px;
+}
+.social label i:hover{
+    color: #C189D8;
+}
+.copr{
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    text-align: left;
+}
+
 @media(max-width:1024px){
     .logo{
         padding-left: 40px;
@@ -290,6 +323,22 @@ section{
     }   
     .send-btn{
         font-size: 0.8rem;
+    }
+
+    .footer{
+        height: 15vh;
+    }
+
+    .social{
+        width: 100%;
+    }
+    .social label i{
+        font-size: 25px;
+    }
+    .copr{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
     }
 }
 
@@ -367,5 +416,8 @@ section{
     }
     .send-btn{
         width: 77%;
+    }
+    .copr p{
+        font-size: 14px;
     }
 }
